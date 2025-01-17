@@ -1,4 +1,3 @@
-groovy
 pipeline {
     agent any
 
@@ -90,9 +89,7 @@ pipeline {
                     echo "Java application started in the background."
                     '''
                 }
-            }
-        }
-
-          
+            } 
+        }      
     }             
 }
