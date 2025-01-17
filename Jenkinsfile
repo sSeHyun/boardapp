@@ -21,7 +21,7 @@ pipeline {
                         rm -rf ./myproject
                     fi
                     
-                    git clone -b master https://github.com/sSeHyun/boardapp.git
+                    git clone -b master https://github.com/sSeHyun/boardapp.git myproject
                     '''
                 }
             }
